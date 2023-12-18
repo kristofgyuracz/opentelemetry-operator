@@ -101,6 +101,7 @@ require (
 	github.com/jpillora/backoff v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kolo/xmlrpc v0.0.0-20220921171641-a4b6fa1dd06b // indirect
+	github.com/kristofgyuracz/opentelemetry-operator/apis v0.0.0-20231218143138-51ee10ed6ab0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/linode/linodego v1.23.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -159,4 +160,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-operator  v0.90.1 => github.com/kristofgyuracz/opentelemetry-operator api-go-module
+replace github.com/open-telemetry/opentelemetry-operator v0.90.1 => github.com/kristofgyuracz/opentelemetry-operator v0.90.1-0.20231218142354-8af8c77b9939
