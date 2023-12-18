@@ -158,3 +158,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace github.com/open-telemetry/opentelemetry-operator  v0.90.1 => github.com/kristofgyuracz/opentelemetry-operator api-go-module
